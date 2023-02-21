@@ -1,0 +1,26 @@
+import React from 'react'
+import "footer.css"
+
+function Footer(){
+return(
+<div>
+<div>
+<i class="fa fa-facebook-square" aria-hidden="true"></i>
+<i class="fa fa-instagram" aria-hidden="true"></i>
+<i class="fa fa-twitter" aria-hidden="true"></i>
+</div>
+<ul>
+<li>info</li>
+<li>support</li>
+<li>marketing</li>
+</ul>
+<ul>
+<li>terms of usage</li>
+<li>privacy policy</li>
+</ul>
+<p><footer>&copy; Copyright 2023 HTML.am</footer>
+</p>
+</div>
+)
+}
+export default Footer;
